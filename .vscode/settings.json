@@ -1,0 +1,33 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.editor.untitled.hint": "hidden",
+    "terminal.external.osxExec": "kitty",
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "terminal.integrated.inheritEnv": false,
+    "git.path": "/opt/homebrew/bin/git",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+
+    "go.buildOnSave": "off",
+    "go.lintOnSave": "off",
+    "go.vetOnSave": "off",
+    "go.useLanguageServer": true,
+    "gopls": {
+        "completeUnimported": false,
+    },
+
+    "[go]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false,
+            "source.fixAll": false
+        }
+    },
+
+    "editor.formatOnSave": false,
+    "editor.insertSpaces": true,
+    "editor.formatOnPaste": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": false,
+        "source.fixAll": false
+    }
+}
